@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.img-display{
+    overflow: hidden;
+    display: flex;
+}
+
+.product-content{
+    padding: 2rem 1rem;
+}
+
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+}
+
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#highest-bid{
+    padding-left: 100px;
+}
+
+
+.end-time{
+    padding-top: 30px;
+}
+
+button{
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: cadetblue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product-detail {
+    margin-top: 40px;
+}
+
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+
+.product-detail li{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+@media screen and (min-width:992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

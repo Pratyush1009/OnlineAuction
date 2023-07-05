@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #b3d9ff;
+    height: 1500px;
+}
+
+.navbar ul{
+    overflow:visible;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+} 
+
+#image li{
+    margin-left: 20px;
+}
+
+.content ul li{
+    margin-top: 30px;
+    padding-right: 20px;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
